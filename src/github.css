@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #e6e6fa38;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+  border-radius: 10%;
+  padding: 10px;
+  object-fit: cover;
+  border: 3px solid #4169e11f;
+  margin: 10px;
+}
+
+ul:first-child li {
+  border-radius: 0;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin: 2px !important;
+  padding: 10px !important;
+  border-bottom: none !important;
+}
+
+.mapBlock {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  border-top: 4px solid #efefef;
+  margin: 14px 15px;
+}
+
+.mapBlock div {
+  flex-basis: 24%;
+  margin: 5px;
+  background-color: #efefef40;
+  padding: 10px;
+  border: 2px solid #9a9;
+  border-radius: 10px;
+  position: relative;
+}
+.mapBlock div ul {
+  list-style: none;
+  padding: 4px;
+}
+.mapBlock div ul li {
+  padding: 3px;
+}
+.mapBlock div h3 {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.custom3 {
+  margin-left: 26px;
+  border-bottom: 4px solid royalblue;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  color: royalblue;
+  font-weight: bold;
+}
+
+.mapBlock .custom_link {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+.mapBlock div:hover {
+  background-color: #e5e2e7;
+}
+form {
+  position: relative;
+}
+.microphone i {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  font-size: 22px;
+}
